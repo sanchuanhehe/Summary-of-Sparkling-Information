@@ -1043,7 +1043,10 @@ SLE感知测量支持单站感知、双站感知、多站感知、多种协作�
 超宽带脉冲信号的参考脉冲波形为凯撒Kaiser波形，其表达方式为：
 
 $$
-r (t) = \left\{ \begin{array}{l l} \frac {1}{L} \frac {I _ {0} \left[ \beta \sqrt {1 - \left(\frac {2 t}{L}\right) ^ {2}} \right]}{I _ {0} [ \beta ]}, & | t | \leq \frac {L}{2} \\ 0, & | t | > \frac {L}{2} \end{array} \right.
+r(t)=\begin{cases}
+\dfrac{1}{L}\dfrac{I_{0}\bigl(\beta\sqrt{1-\bigl(\dfrac{2t}{L}\bigr)^2}\bigr)}{I_{0}(\beta)}, & |t|\leq \dfrac{L}{2} \\
+0, & |t|>\dfrac{L}{2}
+\end{cases}
 $$
 
 其中， $I_0$  为第一类零阶修正贝塞尔函数， $\beta = 10$  为决定波形形状的参数。定义  $T_p$  为波形的带宽参数，对于凯撒脉冲波形， $L$  为脉冲持续时间，该值为  $3 \cdot T_p$ 。
