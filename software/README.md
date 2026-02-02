@@ -4,6 +4,8 @@
 
 软件资料见atomgit，
 
+在线文档见 <https://docs.hisilicon.com/repos/fbb_bs2x/zh-CN/master/>
+
 ## 常见问题
 
 ### 1
